@@ -1,4 +1,4 @@
-package 第一次作业;
+package homeWork1;
 
 import java.util.Scanner;
 
@@ -17,12 +17,7 @@ public class homework2_8 {
     }
 
     public  static int maxCommonDivisor(int m,int n){
-        int commonDivisor;
-        if(m<n){
-            commonDivisor = m;
-        }else{
-            commonDivisor = n;
-        }
+        int commonDivisor = Math.min(m, n);
         while(m%commonDivisor!=0||n%commonDivisor!=0){
             commonDivisor--;
         }
@@ -30,12 +25,7 @@ public class homework2_8 {
     }
 
     public  static int minCommonMultiple(int m,int n){
-        int CommonMultiple;
-        if(m>n){
-            CommonMultiple = m;
-        }else{
-            CommonMultiple = n;
-        }
+        int CommonMultiple = Math.max(m, n);
         while(CommonMultiple%m!=0||CommonMultiple%n!=0){
             CommonMultiple++;
         }

@@ -1,4 +1,4 @@
-package 第一次作业;
+package homeWork1;
 
 public class homework2_9 {
     public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class homework2_9 {
             sign = -sign;
             denominator +=2;
         }while (Math.abs((double)sign/denominator)>=1e-6);
-        return  result;
+        return  result*4;
     }
 }

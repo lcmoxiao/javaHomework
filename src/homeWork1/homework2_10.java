@@ -1,4 +1,4 @@
-package 第一次作业;
+package homeWork1;
 
 import java.util.Scanner;
 
@@ -34,7 +34,7 @@ public class homework2_10 {
     }
 
     private static void printHead() {
-        System.out.printf(" SUN MON TUE WED THU FRI STA");
+        System.out.print(" SUN MON TUE WED THU FRI STA");
     }
 
     private static int getStartPosition(int year, int month) {
