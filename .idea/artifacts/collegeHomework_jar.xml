@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="collegeHomework:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/collegeHomework_jar</output-path>
+    <root id="root">
+      <element id="archive" name="collegeHomework.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/Desktop/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="collegeHomework" />
+      </element>
+    </root>
+  </artifact>
+</component>
